@@ -1,0 +1,47 @@
+body {
+    background-color: gold !important;
+}
+a {
+    text-decoration: none;
+}
+.nav-item i {
+    color: white;
+}
+.nav-label {
+    color: white;
+    text-align: center;
+}
+.dropdown-menu {
+    min-width: auto !important;
+}
+#logo {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+#coverpage {
+    margin-top: 315px;
+    height: 100%;
+    width: 100%;
+}
+#profile {
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;   
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+.carousel-item, .carousel-item i {
+    color: #966919;
+    font-weight: bold;
+}
+.carousel-indicators {
+    margin-top: 15px;
+    position: relative !important;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #966919 !important;
+}
