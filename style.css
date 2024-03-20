@@ -45,3 +45,23 @@ a {
 .carousel-indicators [data-bs-target] {
     background-color: #966919 !important;
 }
+.custom-table {
+    background-color: gold;
+    opacity: 0.5;
+    color: #966919;
+    font-weight:bold;
+}
+.custom-table th {
+    text-decoration-thickness: 1px;
+    text-decoration-color: #966919;
+}
+.custom-table th, td {
+    border-spacing: 1px;
+    border-collapse: separate;
+    border-radius: 10px;
+}
+.summary-para {
+    color: #966919;
+    font-weight:bold;
+    text-align: justify;
+}
