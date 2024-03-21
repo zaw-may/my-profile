@@ -45,11 +45,13 @@ a {
 .carousel-indicators [data-bs-target] {
     background-color: #966919 !important;
 }
-.custom-table {
-    background-color: gold;
-    opacity: 0.5;
+.custom-table, .custom-mycards {
+    background-color: gold !important;
     color: #966919;
     font-weight:bold;
+}
+.custom-table {
+    opacity: 0.5;
 }
 .custom-table th {
     text-decoration-thickness: 1px;
