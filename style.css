@@ -229,9 +229,7 @@ a {
     }
   
     ul.timeline > li > .timeline-panel {
-      width: calc(100% - 200px);
-      width: -moz-calc(100% - 200px);
-      width: -webkit-calc(100% - 200px);
+      width: calc(100% - 200px);      
     }
   
     ul.timeline > li > .timeline-badge {
@@ -270,3 +268,17 @@ a {
 .percentage {
     float: right;
 }
+#requestCV {
+    display: block;
+    padding: 10px auto;
+    text-align: center;
+}
+button > i {
+    color: #966919;
+}
+/*
+.alert-warning {
+    --bs-alert-bg: rgba(255, 255, 0, 0.7) !important;
+    opacity: 0.8;
+}
+*/
