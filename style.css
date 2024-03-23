@@ -282,3 +282,45 @@ button > i {
     opacity: 0.8;
 }
 */
+.code {
+    height: 250px; 
+    width: 100%;
+    text-decoration: none;
+    display: table;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.code .code-div {
+    display: table-cell;
+    vertical-align: middle;
+    height: 250px;
+    background: yellow;
+    opacity: 0;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+.code .code-div h4 {
+    font-size: 30px;
+    transition: transform 0.3s, opacity 0.3s;
+    transform: translate3d(0, -15px, 0);
+}
+.code .code-div span {
+    display: block;
+    color: #966919;
+    font-size: 20px;
+    transition: transform 0.3s, opacity 0.3s;
+    transform: translate3d(0, 15px, 0);
+}
+.code:hover .code-div {
+    opacity: 1;
+}
+.code:hover .code-div h4 {
+    transform: translate3d(0, 0, 0);
+}
+.code:hover .code-div span {
+    transform: translate3d(0, 0, 0);
+}
