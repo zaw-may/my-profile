@@ -1,6 +1,19 @@
 body {
     background-color: gold !important;
 }
+header {
+    width: 100%;
+    background-color: black;
+}
+section {
+    padding-top: 80px; 
+    margin-top: -80px; 
+    position: relative; 
+    z-index: 0;
+}
+.menu-title {
+    color: black;
+}
 a {
     text-decoration: none;
 }
@@ -20,9 +33,13 @@ a {
     margin: 0;
 }
 #coverpage {
-    margin-top: 315px;
+    padding-top: 90px; 
+    margin-top: 70px;
     height: 100%;
     width: 100%;
+    position: relative;
+    z-index: 1;
+    transition: margin-top 0.5s ease, padding-top 0.5s ease;
 }
 #profile {
     background-size: cover !important;
@@ -270,18 +287,15 @@ a {
 }
 #requestCV {
     display: block;
-    padding: 10px auto;
     text-align: center;
 }
 button > i {
     color: #966919;
 }
-/*
 .alert-warning {
-    --bs-alert-bg: rgba(255, 255, 0, 0.7) !important;
+    --bs-alert-bg: #f7ed64 !important;
     opacity: 0.8;
 }
-*/
 .code {
     height: 250px; 
     width: 100%;
@@ -293,6 +307,7 @@ button > i {
     background-position: center center;
     background-repeat: no-repeat;
     border-radius: 15px;
+    border: 1px solid #966919;
 }
 .code .code-div {
     display: table-cell;
@@ -323,4 +338,38 @@ button > i {
 }
 .code:hover .code-div span {
     transform: translate3d(0, 0, 0);
+}
+#contact-form > div > input,
+#contact-form > div > textarea {
+    background: linear-gradient(to bottom, gold, yellow);
+    color: #966919;
+    font-weight: normal;
+    border: 1px solid #966919;
+}
+.contact-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    color: #966919;
+    font-weight: bold;
+    text-align: left;
+}
+.socials {
+    padding: 1.5rem 0;
+    display: inline-block;
+}
+.socials > a > i {
+    background-color: yellow;
+    color: #966919;
+    width: 45px;
+    height: 45px;
+    line-height: 50px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;    
+    border-radius: 50%;
+    margin: 0 15px 0 0;
+    z-index: 100;
+    box-shadow: 0 0 0 3px #966919;
+    transition: all 500ms ease;
 }
