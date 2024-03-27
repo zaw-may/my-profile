@@ -13,6 +13,7 @@ section {
 }
 .menu-title {
     color: black;
+    text-transform: uppercase;
 }
 a {
     text-decoration: none;
@@ -372,4 +373,46 @@ button > i {
     z-index: 100;
     box-shadow: 0 0 0 3px #966919;
     transition: all 500ms ease;
+}
+.img-smt {
+    margin-top: 30px;
+    height: 250px;
+    width: 100%;
+    border: 2px solid #966919;
+    border-radius: 10px;
+}
+.img-smm {
+    margin-top: 30px;
+    height: 350px;
+    width: 100%;
+    border: 2px solid #966919;
+    border-radius: 10px;
+}
+.card-blog .card-body {
+    position: relative;
+    height: 300px;
+}
+.card-blog .card-title {
+    font-size: 1.3rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.6rem;
+    color: #966919;
+    text-align: center;
+}
+.card-blog .card-description {
+    color: #966919;
+}
+.img-fluid {
+    height: 250px !important;
+    width: 100%;
+    border: 1px solid #966919;
+}
+.time-to-read {
+    float: right;
+    color: #966919;
+}
+.card-footer > a {
+    text-decoration: none;
+    color: #966919;
+    font-weight: bold;
 }

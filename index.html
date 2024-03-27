@@ -14,7 +14,7 @@
             <nav id = "navbar" class = "navbar navbar-expand-lg navbar-dark">                        
                 <div class = "container">
                     <a href = "index.html" class = "navbar-brand">
-                        <img src = "images/Zak.jpg" alt = "logo" class = "img-fluid" id = "logo">
+                        <img src = "images/Zak.jpg" alt = "logo" id = "logo">
                     </a>                            
                     <div class = "flex-fill"></div>                            
                     <div class = "text-end">
@@ -63,14 +63,14 @@
                                     </a>
                                     <ul class = "dropdown-menu dropdown-menu-dark">
                                         <li>
-                                            <a class = "dropdown-item" href = "#">
+                                            <a class = "dropdown-item" href = "#technical-activities">
                                                 <i class = "fas fa-lightbulb"></i>
                                                 <span class = "nav-label d-none d-lg-inline">Technical</span>
                                             </a>
                                         </li>
                                         <li class = "dropdown-divider"></li>
                                         <li>
-                                            <a class = "dropdown-item" href = "#">
+                                            <a class = "dropdown-item" href = "#medical-activities">
                                                 <i class = "fas fa-notes-medical"></i>
                                                 <span class = "nav-label d-none d-lg-inline">Medical</span>
                                             </a>
@@ -180,7 +180,7 @@
                         <!-- Career Summary -->
                         <div class = "col-12 col-md-8">
                             <p class = "summary-para">
-                                <h4 class = "menu-title">Hello Dear, Greetings! Hope you are doing well. I'm "Zaw".</h4>
+                                <h4 class = "text-dark">Hello Dear, Greetings! Hope you are doing well. I'm "Zaw".</h4>
                             </p>                            
                             <p class = "summary-para">
                                 Highly versatile professional adept at both data analysis and web development, combining analytical prowess with creative problem-solving skills to deliver comprehensive solutions. With a strong foundation in data analysis and programming, proficient in extracting actionable insights from complex datasets and interpreting them into dynamic web applications. 
@@ -474,7 +474,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class = "row mb-3">
+                    <div class = "row">
                         <div class = "col text-center">
                             <div class = "alert">
                                 <button type = "submit" class = "btn btn-warning btn-outline-dark" id = "linkToPBIX">
@@ -488,18 +488,153 @@
             </section>    
 
             <!-- Technical Activities Section -->
-            <section>
-                
+            <section id = "technical-activities">
+                <div class = "container">
+                    <h2 class = "menu-title text-center mt-1">Activities</h2>
+                    <div class = "row mb-2">
+                        <div class = "col-lg-6 col-12 py-2">
+                            <img src = "images/varcamp-speaker.jpg" alt = "Varcamp-Speaker" class = "img-smt">
+                        </div>
+                        <div class = "col-lg-6 col-12 py-2">
+                            <img src = "images/varcamp-camp.jpg" alt = "Varcamp-Camp" class = "img-smt">
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!-- Medical Activities Section -->
-            <section>
-                
+            <section id = "medical-activities"> 
+                <div class = "container">
+                    <h3 class = "menu-title text-center mt-3">Volunteer Nurse</h3>
+                    <div class = "row mb-2">
+                        <div class = "col-lg-6 col-12 py-2">
+                            <img src = "images/VolunteerNurse2018.jpg" alt = "Volunteer-Nurse-2018" class = "img-smm"> 
+                        </div>
+                        <div class = "col-lg-3 col-12 py-2">
+                            <img src = "images/VolunteerNurse2019.jpg" alt = "Volunteer-Nurse-2019" class = "img-smm"> 
+                        </div>
+                        <div class = "col-lg-3 col-12 py-2">
+                            <img src = "images/NGO-Logo.jpg" alt = "Volunteer-Nurse-2018" class = "img-smm"> 
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!-- Blog Section -->
-            <section>
-
+            <section id = "blog">
+                <div class = "container">
+                    <div>
+                        <div class = "row mb-3">
+                        <div class = "col">
+                            <h2 class = "menu-title text-center mt-3">My Blog</h2>
+                        </div>
+                    </div>
+                    <div class = "row mb-3">
+                        <div class = "col-lg-4 col-12 py-2">
+                            <div class = "card card-blog">
+                                <div class = "card-img">
+                                    <img src = "images/scd.png" alt = "Blog-Post-1" class = "img-fluid"> 
+                                </div>
+                                <div class = "card-body">
+                                    <h4 class = "card-title">Slowly Changing Dimension</h4>
+                                    <p class = "card-description">
+                                        Slowly Changing Dimensions (SCDs) are a method used in data management to handle changes to data over time. They categorize changes into types, including Type 1 (overwriting old data), Type 2 (maintaining a history of changes), and Type 3 (partially updating while retaining historical data). SCDs are crucial for maintaining data integrity, especially in data warehousing, where historical context is essential.
+                                    </p>
+                                </div>
+                                <div class = "card-footer">
+                                    <a href = "https://2friendev.blogspot.com/">Read More (Burmese Language)</a>
+                                    <span class = "time-to-read"><i class = "fas fa-clock me-1"></i> Only 5 min</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "col-lg-4 col-12 py-2">
+                            <div class = "card card-blog">
+                                <div class = "card-img">
+                                    <img src = "images/RFM-analysis.png" alt = "Blog-Post-2" class = "img-fluid"> 
+                                </div>
+                                <div class = "card-body">
+                                    <h4 class = "card-title">RFM Analysis</h4>
+                                    <p class = "card-description">
+                                        RFM analysis is a marketing strategy that segments customers based on their transactional behavior. It analyzes three key factors: recency of purchases, frequency of purchases, and monetary value spent. By categorizing customers into segments, businesses can tailor marketing efforts to specific groups for improved engagement and customer relationship management.
+                                    </p>
+                                </div>
+                                <div class = "card-footer">
+                                    <a href = "https://2friendev.blogspot.com/">Read More (Burmese Language)</a>
+                                    <span class = "time-to-read"><i class = "fas fa-clock me-1"></i> Only 5 min</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "col-lg-4 col-12 py-2">
+                            <div class = "card card-blog">
+                                <div class = "card-img">
+                                    <img src = "images/IQR.jpg" alt = "Blog-Post-3" class = "img-fluid"> 
+                                </div>
+                                <div class = "card-body">
+                                    <h4 class = "card-title">Interquartile range</h4>
+                                    <p class = "card-description">
+                                        The interquartile range (IQR) is a measure of statistical dispersion that represents the range between the first quartile (Q1) and the third quartile (Q3) in a dataset. It provides information about the spread or variability of the middle 50% of the data. Calculating the IQR involves finding the difference between Q3 and Q1: IQR = Q3 - Q1.
+                                    </p>
+                                </div>
+                                <div class = "card-footer">
+                                    <a href = "https://2friendev.blogspot.com/">Read More (Burmese Language)</a>
+                                    <span class = "time-to-read"><i class = "fas fa-clock me-1"></i> Only 5 min</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "col-lg-4 col-12 py-2">
+                            <div class = "card card-blog">
+                                <div class = "card-img">
+                                    <img src = "images/useful-less-data.jpg" alt = "Blog-Post-4" class = "img-fluid"> 
+                                </div>
+                                <div class = "card-body">
+                                    <h4 class = "card-title">Why do we say useless DATA?</h4>
+                                    <p class = "card-description">
+                                        We say data is useless when it does not provide meaningful insights, value, or relevance to the task at hand or the goals of the organization. Useless data can be irrelevant, outdated, inaccurate, or too voluminous to analyze effectively. In such cases, it can hinder decision-making processes and waste resources.
+                                    </p>
+                                </div>
+                                <div class = "card-footer">
+                                    <a href = "https://2friendev.blogspot.com/">Read More (Burmese Language)</a>
+                                    <span class = "time-to-read"><i class = "fas fa-clock me-1"></i> Only 5 min</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "col-lg-4 col-12 py-2">
+                            <div class = "card card-blog">
+                                <div class = "card-img">
+                                    <img src = "images/power-bi-connector.png" alt = "Blog-Post-5" class = "img-fluid"> 
+                                </div>
+                                <div class = "card-body">
+                                    <h4 class = "card-title">How to Connect Dropbox Data into Power BI Connector</h4>
+                                    <p class = "card-description">
+                                        A Power BI connector is a software tool that allows Power BI to connect to various data sources for data extraction and analysis. These connectors enable seamless integration of data from databases, cloud services, files, and online platforms into Power BI Desktop or Power BI Service. With support for a wide range of data sources, Power BI connectors empower users to create insightful reports and dashboards for business intelligence purposes.
+                                    </p>
+                                </div>
+                                <div class = "card-footer">
+                                    <a href = "https://2friendev.blogspot.com/">Read More (Burmese Language)</a>
+                                    <span class = "time-to-read"><i class = "fas fa-clock me-1"></i> Only 5 min</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "col-lg-4 col-12 py-2">
+                            <div class = "card card-blog">
+                                <div class = "card-img">
+                                    <img src = "images/email-forwarding.png" alt = "Blog-Post-6" class = "img-fluid"> 
+                                </div>
+                                <div class = "card-body">
+                                    <h4 class = "card-title">Anonymous Email Forwarding</h4>
+                                    <p class = "card-description">
+                                        To send an anonymous email forwarding, choose an anonymous email service like Guerrilla Mail or AnonAddy. Create an email account without using any personal information, compose your message, and set up forwarding within the service or manually forward the email. Ensure compliance with the service's terms of use and legal regulations regarding anonymous communication.
+                                    </p>
+                                </div>
+                                <div class = "card-footer">
+                                    <a href = "https://2friendev.blogspot.com/">Read More (Burmese Language)</a>
+                                    <span class = "time-to-read"><i class = "fas fa-clock me-1"></i> Only 5 min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
             </section>
 
             <!-- Contact Section -->
@@ -577,7 +712,7 @@
                 <div class = "row">
                     <div class = "col">
                        <div class = "border-top border-top-2 border-dark py-3 text-center text-muted">
-                            &copy;Copyright 2024. All Rights Reserved.
+                            &copy;Copyright Zaw May. All Rights Reserved.
                        </div>                        
                     </div>
                 </div>
