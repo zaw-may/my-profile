@@ -15,3 +15,25 @@ document.getElementById("linkToPBIX").addEventListener("click", function () {
   
   window.location.href = email;
 });
+
+function closeWarning () {
+  document.getElementById("warningBox").style.display = "none";
+}
+
+document.getElementById("contactMe").addEventListener("click", function () {
+  var name = document.getElementById("name").value.trim();
+  var email = document.getElementById("email").value.trim();
+  var subject = document.getElementById("subject").value;
+  var message = document.getElementById("message").value;
+  var warningbox = document.getElementById("warningBox");
+
+  if (name === '' || email === '' || subject === '' || message === '') {
+    warningbox.style.display = "block";
+  } else {
+    var email = "mailto:zawmay.data.analyst@gmail.com" +
+        "?subject=" + encodeURIComponent(subject) +
+        "&body=" + encodeURIComponent("Hello Zaw, \n\n" + message + "\n\nBest Regards,\n" + name);
+  
+    window.location.href = email;
+  }
+});

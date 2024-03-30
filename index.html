@@ -796,12 +796,19 @@
                                     <textarea name = "message" id = "message" class = "form-control" placeholder= "Message" rows = "5" required></textarea>
                                 </div>
                                 <div class = "mb-2">
-                                    <button type = "submit" class = "btn btn-warning btn-outline-dark">
+                                    <button type = "submit" class = "btn btn-warning btn-outline-dark" id = "contactMe">
                                         <i class = "fas fa-paper-plane me-2"></i>
                                         <span>Send Message</span>
                                     </button>
                                 </div>
                             </form>
+                            <div id = "warningBox" style = "display: none;">
+                                <span class = "close-btn" onclick = "closeWarning()">X</span>
+                                <p>
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                    Please fill out the form before clicking the button.
+                                </p>
+                            </div>
                         </div>
                         <div class = "col-lg-6 col-12 py-2">
                             <h2 class = "menu-title text-center mb-3">Get in Touch</h2>
