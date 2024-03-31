@@ -478,3 +478,13 @@ button > i {
     border-radius: 5px;
     border: 2px solid black;
 }
+#hidden-card {
+    text-align: justify;
+    color: #966919;
+    font-weight: normal;
+}
+.card-title {
+    color: #966919 !important;
+    text-align: center;
+    font-weight: bold;
+}
