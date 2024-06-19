@@ -488,3 +488,7 @@ button > i {
     text-align: center;
     font-weight: bold;
 }
+.pagination {
+    --bs-pagination-active-bg: gold !important;
+    --bs-pagination-active-border-color: white !important;
+}    
